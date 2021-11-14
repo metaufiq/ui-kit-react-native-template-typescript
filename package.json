@@ -1,0 +1,27 @@
+{
+  "author": "Taufiq",
+  "peerDependencies": {
+    "react": "16.x",
+    "react-native": "*"
+  },
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "tsc": "tsc -p ./tsconfig.json",
+    "start": "tsc && node lib/run"
+  },
+  "pre-commit": [
+    "tsc"
+  ],
+  "devDependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "@types/react-native": "^0.63.53",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "typescript": "^3.9.10",
+    "pre-commit": "^1.2.2"
+  }
+}
