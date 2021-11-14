@@ -13,7 +13,7 @@
     "outDir": "./lib",                        /* Redirect output structure to the directory. */
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     // "removeComments": true,                /* Do not emit comments to output. */
-    "noEmit": true,                           /* Do not emit outputs. */
+    "noEmit": false,                           /* Do not emit outputs. */
     // "incremental": true,                   /* Enable incremental compilation */
     // "importHelpers": true,                 /* Import emit helpers from 'tslib'. */
     // "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
@@ -60,6 +60,6 @@
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
   "exclude": [
-    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
+    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js", "lib"
   ]
 }
