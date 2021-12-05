@@ -7,7 +7,9 @@
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "files": [
-    "lib/"
+    "lib/",
+    "tsconfig.json",
+    "babel.config.js"
   ],
   "scripts": {
     "tsc": "tsc -p ./tsconfig.json",
