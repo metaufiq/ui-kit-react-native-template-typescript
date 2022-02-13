@@ -6,6 +6,10 @@
   },
   "main": "./lib/index.js",
   "module": "./lib/index.js",
+  "license": "UNLICENSED",
+  "repository": {
+    "url": "https://github.com/metaufiq/ui-kit-react-native-template-typescript"
+  },
   "files": [
     "lib/",
     "tsconfig.json",
